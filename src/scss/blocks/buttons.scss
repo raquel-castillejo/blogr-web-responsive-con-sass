@@ -1,0 +1,59 @@
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid var(--white);
+  
+    color: var(--white);
+    font-weight: 500;
+  
+    margin-right: 10px;
+  }
+  @media screen and (min-width: 900px) {
+    .button:hover {
+      background-color: var(--white);
+      color: var(--txt-cta);
+    }
+  }
+  
+  .button--last-button {
+    margin-right: 0;
+  }
+  
+  .button--cta {
+    background: var(--bg-cta);
+    border: none;
+    color: var(--txt-cta);
+  }
+  @media screen and (min-width: 900px) {
+    .button--cta:hover {
+      background: var(--bg-cta-hover);
+      color: var(--white);
+    }
+  }
+  
+  .button--cta-nav {
+    background-image: var(--bg-gradient-red);
+    color: var(--white);
+    padding: 0.8rem 2.5rem;
+  }
+  @media screen and (min-width: 900px) {
+    .button--cta-nav {
+      background: var(--bg-cta);
+      color: var(--txt-cta);
+      padding: 0.75rem 2rem;
+    }
+  }
+  
+  .button--transparent {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+  }
+  @media screen and (min-width: 900px) {
+    .button--transparent:hover {
+      background-color: transparent;
+      color: var(--white);
+    }
+  }
+  

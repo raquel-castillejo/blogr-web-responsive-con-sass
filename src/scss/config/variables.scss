@@ -1,0 +1,47 @@
+:root {
+  /* fonts */
+  --body-font: "Ubuntu", sans-serif;
+  --titles-font: "Overpass", sans-serif;
+
+  /* --------------------------------------------- */
+
+  /* colors */
+  /* primary colors */
+  --light-red: hsl(356, 100%, 66%);
+  --very-light-red: hsl(355, 100%, 74%);
+  --very-dark-blue: hsl(208, 49%, 24%);
+
+  /* neutral colors */
+  --white: hsl(0, 0%, 100%);
+  --grayish-blue: hsl(240, 2%, 79%);
+  --very-dark-grayish-blue: hsl(207, 13%, 34%);
+  --very-dark-black-blue: hsl(240, 10%, 16%);
+
+  /* gradients */
+  --bg-gradient-red: linear-gradient(
+    to bottom right,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+  --bg-gradient-blue: linear-gradient(
+    to bottom right,
+    hsl(237, 17%, 21%) 20%,
+    hsl(237, 23%, 32%)
+  );
+
+  /* --------------------------------------------- */
+
+  /* colors applied */
+  /* txt colors */
+  --txt-color: var(--very-dark-grayish-blue);
+  --txt-color-footer: var(--grayish-blue);
+  --heading-color: var(--very-dark-blue);
+  --txt-cta: var(--light-red);
+
+  /* bg colors */
+  --bg-color: var(--white);
+  --bg-color-footer: var(--very-dark-black-blue);
+  --bg-cta: var(--white);
+  --bg-cta-hover: var(--very-light-red);
+}
+/* Variables SASS */

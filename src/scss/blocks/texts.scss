@@ -1,0 +1,36 @@
+.text {
+    margin-bottom: 50px;
+  }
+  
+  /* titles */
+  
+  .title,
+  .section-title,
+  .subtitle {
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  @media screen and (min-width: 900px) {
+    .title {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .section-title,
+  .subtitle {
+    color: var(--heading-color);
+    font-size: 1.6rem;
+  
+    padding: 0 1rem;
+  }
+  @media screen and (min-width: 900px) {
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .section-title,
+    .subtitle {
+      padding: 0;
+    }
+  }
